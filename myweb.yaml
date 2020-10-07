@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: weiyunick/myweb:1
+      - image: weiyunick/myweb:latest
         imagePullPolicy: Always
         name: myweb
 
