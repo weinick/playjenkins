@@ -16,7 +16,7 @@ spec:
         app: myweb
     spec:
       containers:
-      - image: weiyunick/playjenkins:1
+      - image: weiyunick/myweb:1
         imagePullPolicy: Always
         name: myweb
 
